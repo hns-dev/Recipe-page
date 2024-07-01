@@ -191,9 +191,13 @@ table {
   text-align: left;
 }
 
-table th,
-table td {
+table tr th,
+table tr td {
   padding: 1rem 2rem;
+}
+
+table tr:not(:last-child) th,
+table tr:not(:last-child) td {
   border-bottom: 1px solid var(--light-grey);
 }
 
