@@ -161,8 +161,7 @@ section:not(:last-child) {
 /* list */
 ul,
 ol {
-  list-style-position: inside;
-  padding-left: 0.7rem;
+  padding-left: 1.8rem;
 }
 
 li:not(:last-child) {
